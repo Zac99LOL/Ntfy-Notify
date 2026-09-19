@@ -1,0 +1,6 @@
+{
+  "package": "dev.zac99lol.ntfynotify.mixin",
+  "client": [
+    "ClientPacketListenerMixin"
+  ]
+}

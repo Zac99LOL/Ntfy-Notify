@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "ntfy_notify",
+  "version": "${version}",
+
+  "name": "Ntfy Notify",
+  "description": "Notifies the user through Ntfy upon certain events.",
+  "authors": ["Zac99LOL"],
+  "contact": {},
+
+  "license": "GPL-3.0",
+  "icon": "assets/ntfy_notify/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.zac99lol.ntfynotify.NtfyNotifyClient"
+    ],
+    "modmenu": [
+      "dev.zac99lol.ntfynotify.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "ntfynotify.client.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "yet_another_config_lib_v3": ">=3.9.6+26.2-fabric"
+  }
+}
