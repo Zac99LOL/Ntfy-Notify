@@ -9,7 +9,7 @@
   "contact": {},
 
   "license": "GPL-3.0",
-  "icon": "assets/ntfy_notify/icon.png",
+  "icon": "assets/ntfynotify/icon.png",
 
   "environment": "client",
   "entrypoints": {
